@@ -52,9 +52,9 @@
 #include "render.h"
 #include "jfont.h"
 
-#if defined(EMSCRIPTEN) || defined(HAIKU)
+
 #include <fcntl.h>
-#endif
+
 
 #include "cp437_uni.h"
 #include "cp737_uni.h"
